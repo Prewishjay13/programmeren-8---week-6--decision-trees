@@ -29,12 +29,13 @@ function loadData() {
 // MACHINE LEARNING - Decision Tree
 //
 function trainModel(data) {
+    csvFile.sort(() => (Math.random() - 0.5));
     //splits data in traindata en testdata
-    let trainingData = data.slice(0, Math.floor(data.length * 0.8))
-    let testingData = data.slice(Math.floor(data.length * 0.8) + 1)
+    let trainingData = data.slice(0, Math.floor(data.length * 0.8));
+    let testingData = data.slice(Math.floor(data.length * 0.8) + 1);
 
-    console.log("train data: "+ trainingData)
-    console.log("test data: "+ testingData)
+    console.log("train data: "+ trainingData);
+    console.log("test data: "+ testingData);
 
     // maak het algoritme aan
     decisionTree = new DecisionTree({
