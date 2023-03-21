@@ -25,14 +25,12 @@ div {
 }
 
 table, tr, td {
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-collapse: collapse;
+    width: 50%;
 }
 
 td {
     padding: 5px;
 }
 
-#matrix {
-border: 1px solid black;
-}
