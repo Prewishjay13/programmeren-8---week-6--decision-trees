@@ -3,9 +3,11 @@ import { VegaTree } from "./libraries/vegatree.js"
 
 //
 // DATA
-//
+//data inladen
 const csvFile = "data/diabetes.csv";
+//waarop getraind wordt te predicten
 const trainingLabel = "Label";  
+//ignored comlumns
 const ignored = ["Insulin","Bp", "Skin", "bmi"]  
 let amountCorrect = 0;
 let totalAmount = 0;
@@ -29,7 +31,8 @@ function loadData() {
 // MACHINE LEARNING - Decision Tree
 //
 function trainModel(data) {
-    csvFile.sort(() => (Math.random() - 0.5));
+    //data rond shuffelen
+    data.sort(() => (Math.random() - 0.5));
     //splits data in traindata en testdata
     let trainingData = data.slice(0, Math.floor(data.length * 0.8));
     let testingData = data.slice(Math.floor(data.length * 0.8) + 1);
@@ -125,4 +128,4 @@ function showMatrix(actualDiabetes,actualNoDiabetes,predictedWrongDiabetes,predi
 
 }
 
-loadData()
+loadData() 
