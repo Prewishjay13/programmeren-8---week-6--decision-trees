@@ -125,7 +125,6 @@ function showMatrix(actualDiabetes,actualNoDiabetes,predictedWrongDiabetes,predi
     document.getElementById("actual-no-d").innerHTML = actualNoDiabetes
     document.getElementById("predicted-wrong-no-d").innerHTML = predictedWrongDiabetes
     document.getElementById("predicted-wrong-d").innerHTML = predictedWrongNoDiabetes
-
 }
 
 loadData() 
