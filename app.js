@@ -47,22 +47,24 @@ function trainModel(data) {
         categoryAttr: trainingLabel
     })
 
+    //save model
     // Convert the decision tree object to JSON string
-let json = JSON.stringify(decisionTree.toJSON(), null, 4);
+// let json = JSON.stringify(decisionTree.toJSON(), null, 4);
+// // Create a Blob object with the JSON string
+// let blob = new Blob([json], {type: "application/json"});
 
-// Create a Blob object with the JSON string
-let blob = new Blob([json], {type: "application/json"});
+// // Create a download link for the Blob object
+// let url = URL.createObjectURL(blob);
+// let link = document.createElement("a");
+// link.download = "model.json";
+// link.href = url;
 
-// Create a download link for the Blob object
-let url = URL.createObjectURL(blob);
-let link = document.createElement("a");
-link.download = "model.json";
-link.href = url;
+// // Trigger the download
+// document.body.appendChild(link);
+// link.click();
+// document.body.removeChild(link);
 
-// Trigger the download
-document.body.appendChild(link);
-link.click();
-document.body.removeChild(link);
+
     // Teken de boomstructuur - DOM element, breedte, hoogte, decision tree
     let visual = new VegaTree('#view', 1300, 700, decisionTree.toJSON())
 
@@ -145,18 +147,5 @@ function showMatrix(actualDiabetes,actualNoDiabetes,predictedWrongDiabetes,predi
 
 loadData() 
 
-let json = JSON.stringify(decisionTree)
-
-const blob = new Blob([json], { type: "application/json" });
-
-const link = document.createElement("a");
-link.download = "model.json";
-
-link.href = URL.createObjectURL(blob);
-
-link.click();
-URL.revokeObjectURL(link.href);
-
-console.log(json)
 
 

@@ -1,0 +1,1263 @@
+{
+    "name": "Glucose >= 128 ?",
+    "children": [
+        {
+            "name": "yes",
+            "children": [
+                {
+                    "name": "Glucose >= 167 ?",
+                    "children": [
+                        {
+                            "name": "yes",
+                            "children": [
+                                {
+                                    "name": "Glucose >= 175 ?",
+                                    "children": [
+                                        {
+                                            "name": "yes",
+                                            "children": [
+                                                {
+                                                    "name": "Glucose >= 176 ?",
+                                                    "children": [
+                                                        {
+                                                            "name": "yes",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Pedigree >= 1.461 ?",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "yes",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Pregnant >= 4 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "0"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "1"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "no",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Pedigree >= 0.682 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "1"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "Pedigree >= 0.655 ?",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "yes",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Glucose >= 189 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "0"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "no",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Pedigree >= 0.314 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "Pedigree >= 0.299 ?",
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "yes",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "0"
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "no",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "Glucose >= 180 ?",
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "name": "yes",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "1"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "no",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "0"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "no",
+                                                            "children": [
+                                                                {
+                                                                    "name": "0"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "no",
+                                            "children": [
+                                                {
+                                                    "name": "1"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "no",
+                            "children": [
+                                {
+                                    "name": "Pedigree >= 0.319 ?",
+                                    "children": [
+                                        {
+                                            "name": "yes",
+                                            "children": [
+                                                {
+                                                    "name": "Pregnant >= 8 ?",
+                                                    "children": [
+                                                        {
+                                                            "name": "yes",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Pedigree >= 1.174 ?",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "yes",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Glucose >= 156 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "1"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "0"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "no",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "no",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Age >= 24 ?",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "yes",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Pregnant >= 4 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "Glucose >= 158 ?",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "yes",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Pedigree >= 0.631 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "Pregnant >= 6 ?",
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "yes",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "0"
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "no",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "1"
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "no",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Glucose >= 154 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "0"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "Glucose >= 144 ?",
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "yes",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "Age >= 36 ?",
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "name": "yes",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "1"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "no",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "0"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "no",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "Age >= 60 ?",
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "name": "yes",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "0"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "no",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "Glucose >= 137 ?",
+                                                                                                                                                                    "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "no",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "Pregnant >= 5 ?",
+                                                                                                                                                                                    "children": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    "name": "1"
+                                                                                                                                                                                                }
+                                                                                                                                                                                            ]
+                                                                                                                                                                                        },
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "name": "no",
+                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                                }
+                                                                                                                                                                                            ]
+                                                                                                                                                                                        }
+                                                                                                                                                                                    ]
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "Pregnant >= 3 ?",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "yes",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "1"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "no",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Glucose >= 164 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "0"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "Glucose >= 149 ?",
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "yes",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "1"
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "no",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "Glucose >= 129 ?",
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "name": "yes",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "Pedigree >= 0.607 ?",
+                                                                                                                                                                    "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "Age >= 31 ?",
+                                                                                                                                                                                    "children": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    "name": "Glucose >= 146 ?",
+                                                                                                                                                                                                    "children": [
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            ]
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                            "name": "no",
+                                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                    "name": "1"
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            ]
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    ]
+                                                                                                                                                                                                }
+                                                                                                                                                                                            ]
+                                                                                                                                                                                        },
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "name": "no",
+                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                                }
+                                                                                                                                                                                            ]
+                                                                                                                                                                                        }
+                                                                                                                                                                                    ]
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "no",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "Pregnant >= 1 ?",
+                                                                                                                                                                                    "children": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    "name": "Glucose >= 144 ?",
+                                                                                                                                                                                                    "children": [
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                    "name": "Pedigree >= 0.335 ?",
+                                                                                                                                                                                                                    "children": [
+                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                    "name": "1"
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                            ]
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                            "name": "no",
+                                                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                            ]
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                    ]
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            ]
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                            "name": "no",
+                                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            ]
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    ]
+                                                                                                                                                                                                }
+                                                                                                                                                                                            ]
+                                                                                                                                                                                        },
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "name": "no",
+                                                                                                                                                                                            "children": [
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    "name": "1"
+                                                                                                                                                                                                }
+                                                                                                                                                                                            ]
+                                                                                                                                                                                        }
+                                                                                                                                                                                    ]
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "no",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "1"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "no",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Pregnant >= 2 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "1"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "Pregnant >= 1 ?",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "yes",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "0"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "no",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Glucose >= 138 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "Glucose >= 165 ?",
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "yes",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "0"
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "no",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "1"
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "0"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "no",
+                                            "children": [
+                                                {
+                                                    "name": "Age >= 54 ?",
+                                                    "children": [
+                                                        {
+                                                            "name": "yes",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Pedigree >= 0.277 ?",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "yes",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Pregnant >= 6 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "0"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "1"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "no",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "0"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "no",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Age >= 42 ?",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "yes",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Glucose >= 156 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "1"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "Pedigree >= 0.234 ?",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "yes",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "1"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "no",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Age >= 45 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "Glucose >= 147 ?",
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "yes",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "Pedigree >= 0.178 ?",
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "name": "yes",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "1"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "no",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "0"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "no",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "0"
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "no",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Age >= 25 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "Pedigree >= 0.244 ?",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "yes",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Pedigree >= 0.268 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "Pedigree >= 0.28 ?",
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "yes",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "Age >= 36 ?",
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "name": "yes",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "0"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "no",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "Pregnant >= 5 ?",
+                                                                                                                                                                    "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "1"
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "no",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "no",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "Glucose >= 152 ?",
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "name": "yes",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "Pregnant >= 3 ?",
+                                                                                                                                                                    "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "1"
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "no",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "no",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "1"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "0"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "no",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Pedigree >= 0.219 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "Glucose >= 150 ?",
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "name": "yes",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "0"
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "no",
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "name": "Pedigree >= 0.167 ?",
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "name": "yes",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "Pedigree >= 0.205 ?",
+                                                                                                                                                                    "children": [
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "yes",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "1"
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "no",
+                                                                                                                                                                            "children": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "0"
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "no",
+                                                                                                                                                            "children": [
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "1"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "Glucose >= 137 ?",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "yes",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "0"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "no",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "Glucose >= 131 ?",
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "name": "yes",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "no",
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "name": "0"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "no",
+            "children": [
+                {
+                    "name": "Age >= 29 ?",
+                    "children": [
+                        {
+                            "name": "yes",
+                            "children": [
+                                {
+                                    "name": "Glucose >= 101 ?",
+                                    "children": [
+                                        {
+                                            "name": "yes",
+                                            "children": [
+                                                {
+                                                    "name": "Pedigree >= 0.203 ?",
+                                                    "children": [
+                                                        {
+                                                            "name": "yes",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Age >= 51 ?",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "yes",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "Pedigree >= 1.39 ?",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "yes",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "1"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "no",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "Pregnant >= 2 ?",
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "name": "yes",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "0"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "no",
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "name": "1"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "no",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "no",
+                                                            "children": [
+                                                                {
+                                                                    "name": "0"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "no",
+                                            "children": [
+                                                {
+                                                    "name": "0"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "no",
+                            "children": [
+                                {
+                                    "name": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
