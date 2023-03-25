@@ -19,10 +19,30 @@
     <div id="matrix">
 		<p id="total"></p>
 		<p id="total-correct"></p>
-		<p id="actual-d"></p>
+		<!-- <p id="actual-d"></p>
 		<p id="actual-no-d"></p>
 		<p id="predicted-wrong-no-d"></p>
-		<p id="predicted-wrong-d"></p>
+		<p id="predicted-wrong-d"></p> -->
 	</div>
+    <div>
+        <h4>Confusion Matrix</h4>
+        <table id="confusion">
+            <tr>
+                <td></td>
+                <td>Predicted Diabetes</td>
+                <td>Predicted Healthy</td>
+            </tr>
+            <tr>
+                <td>Actually Diabetes</td>
+                <td id="actual-d"> </td>
+                <td id="predicted-wrong-no-d"></td>
+            </tr>
+            <tr>
+                <td>Actually Healthy</td>
+                <td id="predicted-wrong-d"></td>
+                <td id="actual-no-d"></td>
+            </tr>`
+        </table>
+    </div>
 </body>
 </html>
