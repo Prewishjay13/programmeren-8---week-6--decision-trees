@@ -27,7 +27,7 @@ div {
 table, tr, td {
     border: 2px solid grey;
     border-collapse: collapse;
-    width: 50%;
+    width: 30%;
 }
 
 td {
