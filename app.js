@@ -8,7 +8,7 @@ const csvFile = "data/diabetes.csv";
 //waarop getraind wordt 
 const trainingLabel = "Label";  
 //ignored comlumns
-const ignored = ["Pregnant", "Insulin", "Bp", "Skin", "bmi"]  
+const ignored = ["pregnant", "insulin", "bp", "skin", "bmi"]  
 let amountCorrect = 0;
 let totalAmount = 0;
 let decisionTree;

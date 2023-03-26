@@ -6,7 +6,8 @@ function addEventListenerToSubmitButton() {
     let pedigree = document.getElementById("pedigree");
     let age = document.getElementById("age");
     let submitBtn = document.getElementById("submit-button");
-  
+
+
     submitBtn.addEventListener("click", (e) => {
       e.preventDefault();
       if (!glucose.value || !pedigree.value || !age.value) {
@@ -38,6 +39,8 @@ function modelLoaded(model) {
 
     if (value !== undefined) {
         userInput.innerText = `Your personal prediction was: ${value}, And the computer prediction is: ${prediction}`;
+    } else { 
+      userInput.innerText = `Fill something in`;
     }
     
       let visual = new VegaTree("#view", 900, 500, decisionTree.toJSON());
