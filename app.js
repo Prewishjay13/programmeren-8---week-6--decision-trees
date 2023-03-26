@@ -5,10 +5,10 @@ import { VegaTree } from "./libraries/vegatree.js"
 // DATA
 //data inladen
 const csvFile = "data/diabetes.csv";
-//waarop getraind wordt te predicten
+//waarop getraind wordt 
 const trainingLabel = "Label";  
 //ignored comlumns
-const ignored = ["Insulin","Bp", "Skin", "bmi"]  
+const ignored = ["Pregnant", "Insulin", "Bp", "Skin", "bmi"]  
 let amountCorrect = 0;
 let totalAmount = 0;
 let decisionTree;
@@ -47,6 +47,10 @@ function trainModel(data) {
         categoryAttr: trainingLabel
     })
 
+      // Model opslaan als JSON
+  let json = decisionTree.stringify();
+  console.log(json);
+
     //save model
     // Convert the decision tree object to JSON string
 // let json = JSON.stringify(decisionTree.toJSON(), null, 4);
@@ -66,7 +70,7 @@ function trainModel(data) {
 
 
     // Teken de boomstructuur - DOM element, breedte, hoogte, decision tree
-    let visual = new VegaTree('#view', 1300, 700, decisionTree.toJSON())
+    let visual = new VegaTree('#view', 800, 400, decisionTree.toJSON())
 
 
     // todo : maak een prediction met een sample uit de testdata
@@ -127,7 +131,7 @@ function predictAll(testingData){
     // todo : bereken de accuracy met behulp van alle test data
     function calculateAccuracy(){
 
-        let accuracy = amountCorrect / totalAmount
+        let accuracy = (amountCorrect / totalAmount) * 100
 
         console.log("Accuracy:" + accuracy)
 
